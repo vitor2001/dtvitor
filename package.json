@@ -1,0 +1,23 @@
+{
+  "name": "dtvitor-firebase",
+  "version": "1.0.0",
+  "description": "Simple Firebase hosting for dtvitor data science repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase serve",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "firebase deploy",
+    "install-firebase": "npm install -g firebase-tools"
+  },
+  "keywords": [
+    "firebase",
+    "hosting",
+    "data-science",
+    "web"
+  ],
+  "author": "Vitor Gomes",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^12.0.0"
+  }
+}

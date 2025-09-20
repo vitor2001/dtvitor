@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTVitor - Data Science</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics-compat.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">DTVitor</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao DTVitor</h2>
+                <p>Portal de Data Science e Aprendizado</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">Ver Projetos</a>
+                    <a href="https://github.com/vitor2001/dtvitor" target="_blank" class="btn-secondary">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projetos de Data Science</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Data Science Ecosystem</h3>
+                        <p>Explorando ferramentas e bibliotecas fundamentais para ciência de dados</p>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Jupyter</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">NumPy</span>
+                        </div>
+                        <a href="https://github.com/vitor2001/dtvitor/blob/main/DataScienceEcosystem%20(2).ipynb" target="_blank" class="project-link">Ver Notebook</a>
+                    </div>
+                    
+                    <div class="project-card">
+                        <h3>Final Assignment</h3>
+                        <p>Projeto final demonstrando conhecimentos em análise de dados</p>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Visualization</span>
+                        </div>
+                        <a href="https://github.com/vitor2001/dtvitor/blob/main/Final%20Assignment.ipynb" target="_blank" class="project-link">Ver Notebook</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre o Projeto</h2>
+                <p>Este repositório é dedicado ao meu aprendizado em ciência de dados. Aqui você encontrará notebooks, projetos e experimentos relacionados a análise de dados, machine learning e visualização.</p>
+                
+                <div class="skills">
+                    <h3>Tecnologias Utilizadas:</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Jupyter Notebooks</li>
+                        <li>Pandas & NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Firebase Hosting</li>
+                        <li>HTML/CSS/JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Conecte-se comigo através das seguintes plataformas:</p>
+                <div class="contact-links">
+                    <a href="https://github.com/vitor2001/dtvitor" target="_blank" class="contact-btn">GitHub</a>
+                    <a href="mailto:vitor@example.com" class="contact-btn">Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DTVitor - Data Science Learning. Hospedado no Firebase.</p>
+            <p>Status do servidor: <span id="server-status" class="status-online">Online</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
